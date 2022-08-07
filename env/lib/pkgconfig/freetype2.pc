@@ -1,0 +1,14 @@
+prefix=/home/roshas/sample/env
+exec_prefix=/home/roshas/sample/env
+libdir=/home/roshas/sample/env/lib
+includedir=/home/roshas/sample/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.0.18
+Requires:
+Requires.private: zlib, libpng
+Libs: -L${libdir} -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

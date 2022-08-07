@@ -1,0 +1,13 @@
+prefix=/home/roshas/sample/env
+exec_prefix=/home/roshas/sample/env
+libdir=/home/roshas/sample/env/lib
+sharedlibdir=/home/roshas/sample/env/lib
+includedir=/home/roshas/sample/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.12
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
